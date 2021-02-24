@@ -15,7 +15,6 @@ fieldset {
   border-radius: 20px;
   background-image: url(../img/2.jpg);
   background-size:100% 100%;
-
 }
 
 h1 {
@@ -43,6 +42,7 @@ input {
   border-radius: 20px;
   border-color: black;
 }
+
 button {
   background-color: #0f0f0f; 
   color: rgb(255, 255, 255);
@@ -51,12 +51,8 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 10px;
-  background: #ff3232;
-
-
-background: linear-gradient(135deg, #000000 0%,#1b1919 50%,#1a1504 51%,#fce303 100%);
- 
+  border-radius: 10px; 
+  background: linear-gradient(135deg, #000000 0%,#1b1919 50%,#1a1504 51%,#fce303 100%);
 }
 footer{
   padding-top: 20px;
