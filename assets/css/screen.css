@@ -8,9 +8,14 @@ html {
   padding: 18px; 
   background: #0d0e0d;
   text-align: center;
+ 
 }
 fieldset {
-  background-color: #361616;
+  background-color: #080808;
+  border-radius: 20px;
+  background-image: url(../img/2.jpg);
+  background-size:100% 100%;
+
 }
 
 h1 {
@@ -23,8 +28,10 @@ li {
 }
 
 label {
-  color: rgba(223, 163, 163, 0.938);
+  color: rgba(24, 1, 1, 0.938);
   font-size: 14px;
+  font-weight: 550;
+  
 }
 
 input {
@@ -33,17 +40,27 @@ input {
   padding: 6px 10px;
   margin: 4px 0;
   box-sizing: border-box;
-
+  border-radius: 20px;
+  border-color: black;
 }
 button {
-  background-color: #dba8a8; 
-  border: none;
-  color: rgb(71, 43, 43);
+  background-color: #0f0f0f; 
+  color: rgb(255, 255, 255);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 10px;
+  background: #ff3232;
+
+
+background: linear-gradient(135deg, #000000 0%,#1b1919 50%,#1a1504 51%,#fce303 100%);
+ 
+}
+footer{
+  padding-top: 20px;
+  
 }
 @media screen and (min-width: 12.6em) {
   #wrap {
