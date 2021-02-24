@@ -1,28 +1,96 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
 
 html {
-  font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
-  font-size: 1.125em; /*18 /16 = 1.125*/
-  line-height: 1.55555em; /*28 /18 =1.55555em */
-  padding: 1.55555em; /*28 /18 =1.55555em */
-  background: #f7e6ff;
+  font-family: Poppins, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  line-height: 18px;
+  padding: 18px; 
+  background: #0d0e0d;
+  text-align: center;
+}
+fieldset {
+  background-color: #422020;
 }
 
 h1 {
-  font-size: 1.333333em; /*24/18= 1.333333em*/
-  font-weight: bold;
-  padding-bottom: 1em; /*18/18=1em */
+  padding-bottom: 30px;
 }
 
 li {
-  padding-bottom: 1em; /*18/18=1em */
+  padding-bottom: 16px;
+  padding-left: 10px;
 }
 
-@media screen and (min-width: 336px) {
+label {
+  color: rgba(223, 163, 163, 0.938);
+  font-size: 14px;
+}
+
+input {
+  font-size: 14px;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 4px 0;
+  box-sizing: border-box;
+
+}
+button {
+  background-color: #dba8a8; 
+  border: none;
+  color: rgb(71, 43, 43);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+@media screen and (min-width: 12.6em) {
   #wrap {
     display: inline-block;
     justify-content: center;
   }
+  html {
+    font-size: 50%;
+  }
 }
 
-/*Maybe add media queries at: 336, 377, 380*/
+@media screen and (min-width: 24.8em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 100%;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 150%;
+  }
+}
+
+@media screen and (min-width: 61em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 200%;
+  }
+}
+
+@media screen and (min-width: 83.3em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 250%;
+  }
+}
